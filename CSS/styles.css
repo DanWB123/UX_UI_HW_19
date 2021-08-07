@@ -1,0 +1,262 @@
+.nav_top {
+    padding-right: 50;
+    vertical-align: bottom;
+    color:grey;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_top ul li {
+    display: inline-block;
+    vertical-align: bottom;
+    scroll-padding-inline: 100px;
+  
+}
+
+  /* CodePen Hover Effect */
+  .btn {
+    color:gray;
+    border:0;
+    display:inline-block;
+    line-height: 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .btn a:hover {
+    position: relative;
+    top: -5px;
+  }
+  
+  .line {
+    width:0%;
+    height:5px;
+    background-color:#ccc;
+    transition: all .5s;
+  }
+  
+  .line-extend {
+    width:100%;
+    background-color:coral;
+    transition: all .5s;
+  }
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.Self-blurb {
+    display: inline-block;
+    vertical-align: auto;
+}
+
+.heroimg {
+    vertical-align: middle;
+    float: right;
+}
+
+.section {
+    display: inline-block;
+    vertical-align: bottom; 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: grey;
+    padding-left: 0px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: grey;
+  padding-left: 15px;
+}
+
+.box {
+    width:fit-content;
+    height: auto;
+    flex: 1;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 800px) {
+    .skills-container {
+    grid-template-columns: 1fr;
+    }
+  }
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 800px) {
+    .about-container {
+    grid-template-columns: 1fr;
+    }
+  }
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 800px) {
+    .skills-container {
+    grid-template-columns: 1fr;
+    }
+  }
+
+.UXUI-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+  @media screen and (max-width: 992px) {
+    .UXUI-container {
+    grid-template-columns: 2fr 2fr;
+    }
+  }
+
+.print-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+  @media screen and (max-width: 992px) {
+    .print-container {
+    grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .digital-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+  @media screen and (max-width: 992px) {
+    .digital-container {
+    grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .other-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+  @media screen and (max-width: 992px) {
+    .other-container {
+    grid-template-columns: 1fr 1fr;
+    }
+  }
+
+.portfolio-container {
+    display: flex;
+    -ms-flex-align: left;
+}
+
+.portfolio_nav {
+    display: flex;
+    -ms-flex-align: center;
+    float: auto; 
+    padding-right: 50;
+    vertical-align: bottom;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box-preview {
+    align-content: center;
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-bottom-style: solid;
+    color: grey;
+}
+
+.preview {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 5px;
+}
+
+.about_copy {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  padding-left: 15px;
+}
+
+.body_copy {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding-left: 0px;
+}
+
+.nav_bottom {
+    float: left;
+    padding-right: 50;
+    vertical-align: bottom;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_bottom ul li {
+    display: inline-block;
+    vertical-align: bottom;
+    scroll-padding-inline: 100px;
+}
+
+.Resume_Button {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.footer {
+    display: inline-block;
+    text-align: left;
+    vertical-align: bottom; 
+}
+
+.footer ul li {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.left {
+    width: 50%;
+    background-color: purple;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+  
+
+
